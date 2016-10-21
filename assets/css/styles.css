@@ -28,6 +28,7 @@ h1 {
 
 .fa-plus{
 	float: right;
+	cursor: pointer;
 }
 
 span{
@@ -39,6 +40,7 @@ span{
 	display: inline-block;
 	transition: 0.2s linear;
 	opacity: 0;
+	cursor: pointer;
 }
 
 li:hover span{
@@ -80,6 +82,7 @@ li {
 	height: 40px;
 	line-height: 40px;
 	color: #666;
+	cursor: pointer;
 }
 
 li:nth-child(2n) {
