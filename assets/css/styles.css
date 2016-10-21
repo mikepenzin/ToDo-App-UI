@@ -8,13 +8,26 @@ body {
 	background: linear-gradient(to left, #4776E6 , #8E54E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */	                     
 }
 
-#container {
-	background: #f7f7f7;
-	box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
-	width: 360px;
-	margin: 100px auto;
-	padding: 0;
+@media (max-width: 768px) {
+	#container {
+		background: #f7f7f7;
+		box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+		width: 80%;
+		margin: 100px auto;
+		padding: 0;
+	}
 }
+
+@media (min-width: 768px) {
+	#container {
+		background: #f7f7f7;
+		box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+		width: 40%;
+		margin: 100px auto;
+		padding: 0;
+	}
+}
+
 
 h1 {
 	background-color: #385EB8;
