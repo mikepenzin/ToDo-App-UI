@@ -92,7 +92,7 @@ ul {
 
 li {
 	background-color: #ffffff;
-	height: 40px;
+	min-height: 40px;
 	line-height: 40px;
 	color: #666;
 	cursor: pointer;
